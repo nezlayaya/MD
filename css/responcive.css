@@ -1,0 +1,431 @@
+/*������������*/
+@media screen  and (max-width: 1268px){
+.logo{
+	margin-left: 15px;
+}
+.nav.menu li>a{
+	font-size: 14px;
+}
+.uk-panel-body{
+	left: 50%;
+	margin-left: -323px;
+}
+.uk-margin-top p{
+	line-height: 50px;
+	margin: 80px 0 110px;
+} 
+.uk-margin-bottom.uk-margin-bottom.uk-margin-bottom {
+	margin-bottom: 28px!important;
+}
+.slogan-1>.container{
+	padding: 0 15px;
+}
+.foto_project{
+	padding: 0 15px;
+}
+.k2-category-list{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.rsform>form>.formContainer>.rsform-block>.formControls>.formBody>button{
+	margin-bottom: 10px;
+}
+.services .k2-services-list{
+	padding: 57px 0 30px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+.service>.service_img>article p{
+	font-size: 12px;
+}
+.service>h1+.all_project+.service_text{
+	width: 56%;
+	padding-bottom: 40px;
+	line-height: 25px;
+	font-size: 20px;
+}
+footer>.footer-menu {
+	width: 61%;
+}
+.style_name{
+	width: 74%;
+}
+.price_img>.article>.block{
+	height: 385px;
+	overflow: hidden;
+}
+.interior_design>div img{
+	width: 300px;
+}
+.k2-category-list .block a>img{
+	height: 100%!important;
+	width: 100%!important;
+}
+.k2-category-items{
+	display: inline-block;
+	width: 33%;
+}
+.phone{
+	display: none;
+}
+.moduletable{
+	text-align: center;
+}
+.container>.moduletable.portfolio>.all_project,
+.container>.moduletable.services>.all_project{
+	position: static;
+	display: inline-block;
+	}
+}
+@media screen and (max-width: 1024px){
+.k2-category-list .k2-category-items>.block:hover .none{
+	display: block;
+	padding: 50px 95px 105px 95px;
+	}
+.formResponsive .formHorizontal .rsform-block{
+	display: block;
+}
+form>.formContainer>.rsform-block:last-child>.formControls>.formBody>button{
+	margin-right: 2%;
+}
+.rsform .formResponsive .formHorizontal .rsform-block{
+	margin-bottom: 20px;
+}
+form>.formContainer>.rsform-block>.formControls>.formBody>input,
+form>.formContainer>.rsform-block:last-child>.formControls>.formBody>button{
+	margin: 0!important;
+}
+.services .k2-services-list li:not(:last-child){
+	margin-right: 10px;
+}
+.custom.above-footer {
+	padding: 57px 20px;
+	}
+}
+@media screen  and (max-width: 968px){
+.nav{
+	display: none;
+}
+#nav{
+	margin: 2% auto;
+	text-align: center;
+}
+#nav-wrap{
+	display: block;
+}
+#menu-icon{
+	display: block;
+	top: 5%;
+	margin-left: 85%;
+	position: absolute;
+}
+button{
+	background: none;
+	border: none;
+}
+.number{
+	display: none;
+}
+#nav-wrap>ul li{
+	display: inline-block;
+	margin-right: 10px;
+	border-top: 1px solid #241a16;
+}
+#nav-wrap>ul li>a{
+	text-decoration: none;
+	font-family: Merel-Black;
+	color: #000;
+	font-size: 14px;
+}
+.k2-category-items{
+	width: 42%;
+}
+.services .k2-services-list{
+	display: flex;
+	flex-wrap: wrap ;
+	justify-content: center;
+	padding: 30px 108px;
+}
+.container .services>.k2-services-list>li{
+	margin: 10px;
+}
+}
+@media screen  and (max-width: 893px){
+.portfolio,
+.services{
+	text-align: center;
+}
+.all_project+.portfolio-p,
+.moduletable .slogan-1.custom p{
+	font-size: 16px;
+	padding: 10px 0
+}
+.rsform .formResponsive .formHorizontal .rsform-block{
+	margin: 10px auto;
+}
+.number{
+	font-size: 15px;
+	top: 25%;
+	right: 13%;
+}
+footer>.nav{
+	display: block;
+	width: 94%;
+}
+.style_name{
+	width: 100%;
+}
+.none>div{
+	padding: 0 28px;
+	line-height: 25px;
+}
+.portfolio-p+.k2-services-list li a+a{
+	font-size: 12px;
+}
+.formHorizontal.formContainer .rsform-block{
+	width: 42%;
+}
+.rsform>form>.formContainer>.rsform-block>.formControls>.formBody>button{
+	margin-bottom: 5px;
+}
+.service_img{
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.service_text{
+	font-size: 16px;
+}
+.interior_design div img{
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+}
+@media screen  and (max-width: 780px){
+.number{
+	top: 20%;
+	right: 10%;
+	font-size: 16px;
+}
+#menu-icon{
+	margin-left: 82%;
+}
+#nav-wrap>ul li{
+	margin-right: 5px;
+}
+#nav{
+	margin: 2% auto 0;
+	text-align: center;
+}
+.feedback h1{
+	font-size: 20px;
+}
+.feedback p{
+	font-size: 18px;
+}
+}
+@media screen  and (max-width: 720px){
+.all_project+.portfolio-p {
+	font-size: 14px;
+}
+.rsform>form>.formContainer>.rsform-block{
+	margin-bottom: 0;
+}
+.feedback>.container>form{
+	padding: 0;
+}
+#menu-icon{
+	margin-left: 79%;
+}
+#nav-wrap>ul li>a{
+	font-size: 15px;
+}
+.feedback>.container h1{
+	font-size: 15px;
+}
+.feedback p{
+	font-size: 15px;
+}
+.rsform-block{
+	display: block;
+	width: 20%;
+}
+.uk-panel-body{
+	width: 330px;
+	top: 10%;
+	left: 50%;
+	margin-left: -164px;
+}
+.uk-margin-top>p{
+	font-size: 19px;
+}
+.grey:hover .none,
+.style:hover .none{
+	height: 77%;
+}
+.item-page>.page-header+div article{
+	width: 49%;
+}
+.k2-category-items {
+	width: 100%;
+}
+.moduletable .slogan-1.custom p {
+	font-size: 14px;
+}
+.k2-category-items .block{
+	margin: 0 auto;
+	float: none
+}
+.services .k2-services-list{
+	padding: 30px 20px;
+}
+.feedback h3, .feedback2 h3{
+	font-size: 20px;
+}
+}
+@media screen  and (max-width: 630px){
+	#menu-icon{
+		margin-left: 77%;
+	}
+	footer>.nav{
+		width: 100%;
+
+	}
+	.formControls>.formBody{
+		margin:0 auto;
+	}
+	.nav li a{
+		font-size: 14px;
+	}
+	.container.rsform .formResponsive .formResponsive input .formResponsive .textarea .formResponsive select{
+		width: auto;
+	}
+	#nav-wrap>ul li{
+		display: block;
+		margin: 0;
+		border-bottom: 1px solid #241a16;
+		background: #c58e57;
+	}
+	#nav-wrap>ul li:hover{
+		background: #241a16;
+		color: #fff;
+	}
+	#nav-wrap>ul li:hover a{
+		color: #fff;
+	}
+	.header>#nav-wrap>#nav{
+		margin: 0;
+	}
+	.lict{
+		width: 64%;
+		margin: 0 auto;
+	}
+}
+@media screen  and (max-width: 520px){
+	#menu-icon {
+		margin-left: 65%;
+	}
+	.phone{
+		height: 69px;
+	}
+	.container .services>.k2-services-list>li {
+		margin-bottom: 15px;
+	}
+	.grey:hover .none,
+	.style:hover .none{
+		height: 70%;
+	}
+	.grey>.none>div,
+	.style>.none>div{
+		padding: 0 10px;
+		line-height: 13px;
+	}
+	.grey>.none>div>p,
+	.style>.none>div>p{
+		font-size: 15px;
+	}
+	.portfolio-p+.k2-services-list li a+a{
+		font-size: 16px;
+	}
+}
+@media screen  and (max-width: 493px){
+#menu-icon {
+	margin-left: 60%;
+}
+.uk-slidenav.uk-slidenav-contrast.uk-slidenav-previous.uk-hidden-touch {
+	left: 30px;
+}
+.uk-slidenav.uk-slidenav-contrast.uk-slidenav-next.uk-hidden-touch {
+	right:40px;
+}
+.feedback p{
+	left: 68%;
+	font-size: 15px;
+	top: 5%;
+}
+.foto_project>.block{
+	width: auto;
+}
+.foto_project{
+	padding: 0 32px;
+}
+.rsform>form>.formContainer>.rsform-block{
+	padding: 0;
+	margin: 0 auto;
+}
+.k2-services-list.container{
+	display: block;
+	}
+.k2-services-list.container li{
+	margin: 0 auto;
+	display: block;
+}
+.k2-services-list li:not(:last-child){
+	margin-right: 0;
+}
+.k2-services-list li a+a{
+	font-size: 10px;
+}
+footer>.nav{
+	display: none;
+}
+.grey:hover .none,
+.style:hover .none{
+	height: 86%;
+}
+.style_img div{
+	width: 100%;
+}
+.grey>.none>div,
+.style>.none>div{
+	padding: 0 10px;
+	line-height: 13px;
+}
+.style_img>.grey>p,
+.style_img>.style>p{
+	font-size: 15px;
+}
+.style_name>ul>li{
+	font-size: 14px;
+}
+.none div a{
+	font-size: 12px;
+}
+.item-page>.page-header+div article{
+	width: 89%;
+	margin: 0 auto;
+}
+.mounting table>tbody>tr>td{
+	font-size: 14px;
+	padding-left: 5px;
+}
+.rsform form{
+	padding: 0 15px;
+}
+.container .services>.k2-services-list>li {
+	max-width: 100%;
+}
+}

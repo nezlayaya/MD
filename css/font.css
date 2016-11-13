@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'merelblack';
+    src: url('../fonts/Merel/merel_black-webfont.eot');
+    src: url('../fonts/Merel/merel_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel/merel_black-webfont.woff2') format('woff2'),
+         url('../fonts/Merel/merel_black-webfont.woff') format('woff'),
+         url('../fonts/Merel/merel_black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merelbold';
+    src: url('../fonts/Merel/merel_bold-webfont.eot');
+    src: url('../fonts/Merel/merel_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel/merel_bold-webfont.woff2') format('woff2'),
+         url('../fonts/Merel/merel_bold-webfont.woff') format('woff'),
+         url('../fonts/Merel/merel_bold-webfont.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merellight';
+    src: url('../fonts/Merel/merel_light-webfont.eot');
+    src: url('../fonts/Merel/merel_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel/merel_light-webfont.woff2') format('woff2'),
+         url('../fonts/Merel/merel_light-webfont.woff') format('woff'),
+         url('../fonts/Merel/merel_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'merelmedium';
+    src: url('../fonts/Merel/merel_medium-webfont.eot');
+    src: url('../fonts/Merel/merel_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel/merel_medium-webfont.woff2') format('woff2'),
+         url('../fonts/Merel/merel_medium-webfont.woff') format('woff'),
+         url('../fonts/Merel/merel_medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merelthin';
+    src: url('../fonts/Merel/merel_thin-webfont.eot');
+    src: url('../fonts/Merel/merel_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel/merel_thin-webfont.woff2') format('woff2'),
+         url('../fonts/Merel/merel_thin-webfont.woff') format('woff'),
+         url('../fonts/Merel/merel_thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merelregular';
+    src: url('../fonts/Merel/merel-webfont.eot');
+    src: url('../fonts/Merel/merel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Merel/merel-webfont.woff2') format('woff2'),
+         url('../fonts/Merel/merel-webfont.woff') format('woff'),
+         url('../fonts/Merel/merel-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

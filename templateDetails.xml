@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.6.3//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.6.3" type="template" client="site">
+	<name>Elite Group™</name>
+	<version>3.4.0</version>
+	<creationDate>10/2016</creationDate>
+	<author>Elite Group™</author>
+	<authorEmail>tm@elitegroup.company</authorEmail>
+	<copyright>Copyright (C) 2016 Elite Group™.Все права защищены</copyright>
+	<description>Elite Group™ - профессиональная разработка сайтов</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<position>main-menu</position>
+		<position>slider</position>
+		<position>services</position>
+		<position>contacts</position>
+		<position>text</position>
+		<position>portfolio_inside</position>
+		<position>portfolio</position>
+		<position>style</position>
+		<position>maps</position>
+		<position>feedback</position>
+		<position>interior_design</position>
+		<position>feedback2</position>
+		<position>above-footer</position>
+		<position>mounting</position>
+		<position>footer</position>
+		<position>forms</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_elitegroup.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_elitegroup.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="templateColor" class="" type="color" default="#08C"
+					label="TPL_ELITEGROUP_COLOR_LABEL"
+					description="TPL_ELITEGROUP_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+					label="TPL_ELITEGROUP_BACKGROUND_COLOR_LABEL"
+					description="TPL_ELITEGROUP_BACKGROUND_COLOR_DESC" />
+
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_ELITEGROUP_LOGO_LABEL"
+					description="TPL_ELITEGROUP_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=""
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="string" />
+
+				<field name="googleFont"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="TPL_ELITEGROUP_FONT_LABEL"
+					description="TPL_ELITEGROUP_FONT_DESC"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans"
+					label="TPL_ELITEGROUP_FONT_NAME_LABEL"
+					description="TPL_ELITEGROUP_FONT_NAME_DESC" />
+
+				<field name="fluidContainer"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="TPL_ELITEGROUP_FLUID_LABEL"
+					description="TPL_ELITEGROUP_FLUID_DESC" 
+				>
+					<option value="1">TPL_ELITEGROUP_FLUID</option>
+					<option value="0">TPL_ELITEGROUP_STATIC</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
